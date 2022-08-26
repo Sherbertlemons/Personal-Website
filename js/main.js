@@ -1,7 +1,7 @@
 const options = {
 	method: 'POST',
 	headers: {
-		'X-RapidAPI-Key': 'SIGN-UP-FOR-KEY',
+		'X-RapidAPI-Key': '395c6962-00be-4ba1-b7a3-f37afd2497c9',
 		'X-RapidAPI-Host': 'CoinMarketCapzakutynskyV1.p.rapidapi.com'
 	}
 };
