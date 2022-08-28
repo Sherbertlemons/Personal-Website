@@ -41,15 +41,3 @@ h1 {
 .navbar a:hover{
     color: #F5F5F5;
 }
-
-.cover_pic {
-    /* The image used */
-    background-image: url("img/front_page_cover.png");
-
-    height: 70%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
