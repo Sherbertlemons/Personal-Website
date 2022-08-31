@@ -61,7 +61,8 @@ h1 {
     border-style: solid;
     border-color: #EF233C;
     font-size: 17px;
-    color: #EF233C
+    color: #EF233C;
+    font-style: normal;
 }
 
 .topcorner_left {
