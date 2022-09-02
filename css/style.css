@@ -77,12 +77,12 @@ html {
     margin-left: 30%;
     margin-right: 30%;
     position: absolute;
-    bottom: 250px;
+    bottom: 15%;
 }
 
 .title {
     color: #EF233C;
-    font-size: 60px;
+    font-size: 4vw;
 }
 
 .title p {
