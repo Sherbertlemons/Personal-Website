@@ -31,9 +31,9 @@ html {
 .navbar a{
     text-decoration: none;
     color: #EF233C;
-    width: 150px;
+    width: 125px;
     display: block;
-    padding: 33px 25px; 
+    padding: 33px 10px; 
     font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
@@ -48,7 +48,7 @@ html {
 .topcorner_right {
     position: absolute;
     top: 32px;
-    right: 150px;
+    right: 5%;
     padding: 12px 30px;
     text-align: center;
     font-weight: bold;
@@ -63,7 +63,7 @@ html {
 .topcorner_left {
     position: absolute;
     top: 32px;
-    left: 150px;
+    left: 5%;
     padding: 12px 30px;
     text-align: center;
     font-weight: bold;
@@ -87,4 +87,10 @@ html {
 
 .title p {
     margin: 10px;
+}
+
+@media only screen and (max-width: 850px) {
+    body{
+        background-color: aqua;
+    }
 }
