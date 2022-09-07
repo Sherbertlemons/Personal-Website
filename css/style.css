@@ -26,15 +26,16 @@ html {
 
 .navbar li{
     display: inline-block;
+    text-align: center;
 }
 
 .navbar a{
     text-decoration: none;
     color: #EF233C;
-    width: 125px;
+    width: 100%;
     display: block;
-    padding: 33px 10px; 
-    font-size: 20px;
+    padding: 33px 25px; 
+    font-size: 2.5vw;
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
@@ -47,7 +48,7 @@ html {
 
 .topcorner_right {
     position: absolute;
-    top: 32px;
+    top: 35px;
     right: 5%;
     padding: 12px 30px;
     text-align: center;
@@ -63,7 +64,7 @@ html {
 .topcorner_left {
     position: absolute;
     top: 32px;
-    left: 5%;
+    left: 2.5%;
     padding: 12px 30px;
     text-align: center;
     font-weight: bold;
@@ -93,4 +94,23 @@ html {
     body{
         background-color: aqua;
     }
+
+    .navbar li {
+        padding-right: 7.5%;
+    }
+
+    .topcorner_left {
+        display: none;
+    }
+
+    .topcorner_right {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 950px) {
+    .navbar a {
+        font-size: 25px;
+    }
+    
 }
