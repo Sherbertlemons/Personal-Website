@@ -37,6 +37,14 @@
 <body>
 
     <div class ="cover_pic">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Home</a>
+            <a href="#">About me</a>
+            <a href="#">Crypto</a>
+            <a href="#">Get in Contact</a>
+        </div>
+
         <div class="margins">
             <div class ="navbar">
                     <a>
@@ -51,7 +59,7 @@
                     <a style="color: #EF233C;">|</a>
                     <a href="mailto:alexherbert.business@outlook.com"><address>Get in touch</address></a>
                     <a href="#" class="icon">
-                        <i class="fa fa-bars"></i>
+                        <i class="fa fa-bars" onclick="openNav()"></i>
                     </a>
                 </div>
             </div>
@@ -60,7 +68,7 @@
 
         <div class="center">
             <div class="title">
-                <p style="color: white;">Hi there, I am Alex</p> 
+                <p style="color: #F5F5F5;">Hi there, I am Alex</p> 
                 <p>Computer Science Student</p>
             </div>
         </div>
@@ -71,5 +79,21 @@
         <h1>Test</h1>
     </div>
 
+
+
+
+
+
+
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "270px";
+        }
+        
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
 </body>
 </html>
