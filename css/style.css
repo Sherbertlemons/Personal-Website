@@ -11,10 +11,7 @@ body, html {
     margin: 0;
     padding: 0;
     background-color: #1F1F1F;
-}
-
-html {
-    height: 100%;
+    color: #EF233C;
 }
 
 .navbar {
