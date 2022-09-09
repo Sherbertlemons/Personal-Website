@@ -1,5 +1,4 @@
 @import url('https://rsms.me/inter/inter.css');
-
 @supports (font-variation-settings: normal) {
     html { 
         font-family: 'Inter var', sans-serif; 
@@ -97,8 +96,6 @@ body, html {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
-
-
 
 address {
     font-style: normal;
