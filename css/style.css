@@ -118,6 +118,21 @@ address {
     width: 1170px;
 }
 
+.opening {
+    font-size: 22px;
+    color: #F5F5F5;
+    text-align: justify;
+    padding: 15px;
+}
+
+.paragraph {
+    font-size: 17px;
+    color: #EF233C;
+    text-align: justify;
+    padding: 15px;
+    padding-top: 40px;
+}
+
 @media only screen and (min-width: 1135px) {
     .title {
         font-size: 50px;
