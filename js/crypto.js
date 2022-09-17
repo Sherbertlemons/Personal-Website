@@ -1,4 +1,3 @@
-
 var eth = document.getElementById("ethereum");
 var btc = document.getElementById("bitcoin");
 
