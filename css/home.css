@@ -1,0 +1,201 @@
+@import url('https://rsms.me/inter/inter.css');
+@supports (font-variation-settings: normal) {
+    html { 
+        font-family: 'Inter var', sans-serif; 
+    }
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #1F1F1F;
+    color: #EF233C;
+}
+
+.navbar {
+    overflow: hidden;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: #EF233C;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+    font-size: 27px;
+    transition: 0.5s;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.navbar-right a:hover {
+    color: #F5F5F5;
+}
+
+.navbar-right .icon {
+    display: none;
+}
+
+.logo {
+    color: #EF233C;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar-right a {
+        display: none;
+    }
+
+    .navbar-right a.icon {
+        float: right;
+        display: block;
+        font-size: 25px;
+    }
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #141414;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+ 
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 27px;
+    color: #EF233C;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover {
+    color: #F5F5F5;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+address {
+    font-style: normal;
+}
+
+.title {
+    font-size: 35px;
+    position: absolute;
+    bottom: 15%;
+}
+
+.title p {
+    padding: 12.5px 10px;
+    margin: 0;
+}
+
+.margins {
+    margin: auto;
+    width: 1170px;
+}
+
+.opening {
+    font-size: 22px;
+    color: #F5F5F5;
+    text-align: justify;
+    padding: 15px;
+    padding-bottom: 40px;
+}
+
+.paragraph {
+    font-size: 17px;
+    color: #EF233C;
+    text-align: justify;
+    padding: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 1px;
+    background-color: #141414;
+    color: #F5F5F5;
+    font-size: 27px;
+}
+
+footer p{
+    margin:15px;
+    margin-bottom: 3px;
+}
+.fa {
+    padding: 5px;
+    font-size: 40px !important;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+    margin: 5px;
+    transition: 0.5s;
+}
+
+.fa:hover {
+    color: #F5F5F5
+}
+
+.fa-github {
+    color: #EF233C;
+}
+
+.fa-twitter {
+    color: #EF233C;
+}
+
+.fa-linkedin {
+    color: #EF233C;
+}
+
+.fa-instagram {
+    color: #EF233C;
+}
+
+.fa-spotify {
+    color: #EF233C;
+}
+
+@media only screen and (min-width: 1135px) {
+    .title {
+        font-size: 50px;
+    } 
+}
+
+@media only screen and (max-width: 1170px) {
+    .margins {
+        width:auto;
+    };
+}
+
+
+/* 
+Heads - I clean up Crypto   
+Tails - I make the film page click image to flip and review angle 
+*/
+
+
+
+
