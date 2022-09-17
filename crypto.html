@@ -3,25 +3,66 @@
 
 <head>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+    <link rel="stylesheet" href="css/crypto.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img//favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Crytpo page</title>
 </head>
 
 <style>
-    body {
-        background-color: rgb(0, 255, 115);
-    }
 </style>
 
 <body>
 
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index">Home</a>
+        <a href="crypto">Crypto</a>
+        <a href="mailto:alexherbert.business@outlook.com"><address>Get in touch</address></a>
+    </div>
 
-    <div class="container">
-        <div class="coin-price">
-            <div>
-                <h1>The current price of Bitcoin: $<span id="bitcoin"></span></h1>
-                <h1>The current price of Ethereum: $<span id="ethereum"></span></h1>
-            </div>    
+    <div class="margins">
+        <div class ="navbar">
+                <a>
+                    <div class="logo">
+                        Alex.
+                    </div>
+                </a>
+            <div class="navbar-right">
+                <a href ="index">Home</a>
+                <a href ="crypto">Crypto</a>
+                <a style="color: #EF233C;">|</a>
+                <a href="mailto:alexherbert.business@outlook.com"><address>Get in touch</address></a>
+                <a href="#" class="icon">
+                    <i style="padding: 0; margin: 0;" class="fa fa-bars" onclick="openNav()"></i>
+                </a>
+            </div>
         </div>
     </div>
+
+    <div class="coin-price">
+        <div>
+            <h1>The current price of Bitcoin: $<span id="bitcoin"></span></h1>
+            <h1>The current price of Ethereum: $<span id="ethereum"></span></h1>
+        </div>    
+    </div>
+
+    <footer>
+        <p>Links</p>
+        <a href="https://twitter.com/AlexHer88666734" target="_blank" rel="noopener noreferrer" class="fa fa-twitter"></a>
+        <a href="https://www.linkedin.com/in/alexander-herbert-93b29b195/" target="_blank" rel="noopener noreferrer" class="fa fa-linkedin"></a>
+        <a href="https://www.instagram.com/alexherbert______/" target="_blank" rel="noopener noreferrer" class="fa fa-instagram"></a>
+        <a href="https://open.spotify.com/user/k4o8sj9x9r7bgpx2ivdav2ivq" target="_blank" rel="noopener noreferrer" class="fa fa-spotify"></a>
+        <a href="https://github.com/Sherbertlemons0" target="_blank" rel="noopener noreferrer" class="fa fa-github"></a>
+    </footer>
+    
 
     <script src="js/main.js"></script>
 
