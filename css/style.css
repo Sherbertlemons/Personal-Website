@@ -101,16 +101,15 @@ address {
     font-style: normal;
 }
 
-.center {
-    text-align: left;
-    margin-left: 30%;
-    margin-right: 30%;
+.title {
+    font-size: 35px;
     position: absolute;
     bottom: 15%;
 }
 
-.title {
-    font-size: 4vw;
+.title p {
+    padding: 12.5px 10px;
+    margin: 0;
 }
 
 .margins {
@@ -190,7 +189,7 @@ footer p{
 @media only screen and (min-width: 1135px) {
     .title {
         font-size: 50px;
-    }
+    } 
 }
 
 @media only screen and (max-width: 1170px) {
@@ -198,3 +197,7 @@ footer p{
         width:auto;
     };
 }
+
+
+
+
