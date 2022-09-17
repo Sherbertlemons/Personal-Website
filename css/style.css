@@ -137,14 +137,50 @@ footer {
     text-align: center;
     padding: 1px;
     background-color: #141414;
-    color: white;
+    color: #F5F5F5;
+    font-size: 27px;
 }
 
+footer p{
+    margin:15px;
+    margin-bottom: 3px;
+}
 .fa {
     padding: 5px;
-    font-size: 40px;
+    font-size: 40px !important;
     text-align: center;
     text-decoration: none;
+    width: 40px;
+    margin: 5px;
+    transition: 0.5s;
+}
+
+.fa:hover {
+    color: #F5F5F5
+}
+
+.fa-facebook {
+    color: #EF233C;
+}
+
+.fa-twitter {
+    color: #EF233C;
+}
+
+.fa-linkedin {
+    color: #EF233C;
+}
+
+.fa-youtube {
+    color: #EF233C;
+}
+
+.fa-instagram {
+    color: #EF233C;
+}
+
+.fa-reddit {
+    color: #EF233C;
 }
 
 @media only screen and (min-width: 1135px) {
