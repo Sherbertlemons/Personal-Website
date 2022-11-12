@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="css/home.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="css/home.css">
 
+    <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="img//favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
@@ -11,16 +13,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Home page</title>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EGNGH8L42B"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-EGNGH8L42B');
-    </script>
 </head> 
 
 <style>
@@ -39,6 +31,15 @@
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
+    }
+
+    .profile_pic {
+        background-image: url("img/Alex.jpg");
+    }
+
+    img {
+        border-radius: 50%;
+        background-color: #EF233C;
     }
 </style>
 
@@ -62,9 +63,9 @@
                     </a>
                 <div class="navbar-right">
                     <a href ="index">Home</a>
-                    <a href ="crypto">Crypto</a>
+                    <a href ="crypto.html">Crypto</a>
                     <a href="#">Movies</a>
-                    <a href="login">Log In</a>
+                    <a href="login.html">Log In</a>
                     <a style="color: #EF233C;">|</a>
                     <a href="mailto:alexherbert.business@outlook.com"><address>Get in touch</address></a>
                     <a href="#" class="icon">
@@ -73,8 +74,16 @@
                 </div>
             </div>
             <div class="title">
-                <p style="color: #F5F5F5;">Hi there, I am Alex</p> 
-                <p>Computer Science Student</p>
+                <table>
+                    <tr>
+                        <td style="color: #F5F5F5;">Hi there, I am Alex</td>
+                        <td rowspan="2" style="padding-left: 75px"><img src="img/Alex-removebg.png" style="width:238px"></td>
+                    </tr>
+                    <tr>
+                        <td><p>Computer Science Student</p></td>
+                    </tr>
+                </table>
+            </div>
             </div>
         </div>
     </div>
@@ -100,6 +109,8 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis hic temporibus molestiae corporis, voluptate rem 
             eius deleniti provident repellendus delectus dolorem dolore dolorum quidem non quasi dicta nemo optio illo.
         </div>
+        
+        <h3><span id="email"></span></h3>
     </div>
 
     <footer>
@@ -112,5 +123,15 @@
     </footer>
 
     <script src="js/home.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EGNGH8L42B"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-EGNGH8L42B');
+    </script>
 </body>
 </html>

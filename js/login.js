@@ -31,9 +31,11 @@ document.getElementById("login-btn").addEventListener('click', function(){
     signInWithEmailAndPassword(auth, loginEmail, loginPassword)
         .then((userCredential) => {
             const user = userCredential.user;
-            document.getElementById("result-box").style.display="inline";
-            document.getElementById("login-div").style.display="none";
-            document.getElementById("result").innerHTML="Welcome back<br>" + loginEmail + " was login sucessfully"
+            // document.getElementById("result-box").style.display="inline";
+            // document.getElementById("login-div").style.display="none";
+            // document.getElementById("result").innerHTML="Welcome back<br>" + loginEmail + " was login sucessfully";
+            sessionStorage.setItem("loggedIn", loginEmail);
+            window.location.href="index.html";
         })
         .catch((error) => {
             const errorCode = error.code;
